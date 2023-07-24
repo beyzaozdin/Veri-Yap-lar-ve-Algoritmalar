@@ -13,7 +13,7 @@
         1) 7
           /
          5
-         * 5 7'den küçük olduğu için 7'nin soluna geçer.
+         - 5 7'den küçük olduğu için 7'nin soluna geçer.
   
   
         2)    7
@@ -21,24 +21,24 @@
             5
            /
           1
-        * 1 5'den küçük olduğu için 5'in soluna geçer.
+        - 1 5'den küçük olduğu için 5'in soluna geçer.
   
-       3)     7  
+       1)     7  
              / \
             5   8
            /    
           1    
-        * 8 7'den büyük olduğu için 7'nin sağına geçer.
+        -  8 7'den büyük olduğu için 7'nin sağına geçer.
 
-       4)      7  
+       2)      7  
               / \
              5   8
             /     
            1  
             \
              3 
-        *3 1'den büyük olduğu için sola geçer.
-        5)     7  
+        - 3 1'den büyük olduğu için sola geçer.
+        3)     7  
               / \
              5   8
             / \   
@@ -46,7 +46,7 @@
             \
              3  
 
-        6)      7  
+        4)      7  
                / \
               5   8
              / \   
@@ -54,7 +54,7 @@
            / \
           0   3   
 
-        7)         7  
+        5)         7  
                   / \
                  5   8
                 / \   \
@@ -62,7 +62,7 @@
               / \
              0   3   
 
-        8)             7  
+        6)             7  
                       / \
                      5   8
                     / \   \
@@ -72,7 +72,7 @@
                       \
                        4
 
-        9)          7  
+        7)          7  
                    / \
                   5   8
                  / \   \
